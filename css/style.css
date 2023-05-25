@@ -1,0 +1,366 @@
+/* GENERALES */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+button {
+    color: black;
+    border: double black;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(164, 173, 166);
+}
+
+/* HEADER */
+
+/* seccion 1*/
+
+.menuUno {
+    background-color: #1A471C;
+    padding: 5px 0px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.menuUno__uno {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menuUno__dos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+
+.menuUno__item {
+    border-right: 2px solid white;
+    padding: 5px 15px 5px 15px;
+}
+
+/* seccion 2 - bloquemedio */
+
+h1 {
+    font-size: 45px;
+    text-shadow: 10px 15px 15px rgb(12, 11, 11);
+    text-align: center;
+}
+
+.logo {
+    border-radius: 100px;
+}
+
+.bloquemedio {
+    background-image: url(../imagenes/portada8.jpg);
+    background-size: 450px 850px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+body header div div input {
+    color: black;
+}
+
+.logo-titulo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bloquemedio__derecha {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+header div ul li {
+    padding: 10px;
+}
+
+.bloquemedio a:hover {
+    color: black;
+    font-size: 17px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+/* seccion 3 - nav*/
+
+.menuDos {
+    background-color: #1A471C;
+    border-top: white double;
+    border-bottom: white double;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    letter-spacing: 3px;
+    margin: 0px;
+}
+
+
+header nav ul li {
+    width: 170px;
+    text-align: center;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    }
+
+
+.menuDos__all__submenu {
+    display: none;
+    position: absolute;
+    background-color: #1A471C;
+    padding: 10px;
+}
+
+.menuDos__all {
+    position: relative;
+}
+
+.menuDos__all:hover .menuDos__all__submenu {
+    display: block;
+}
+
+
+header nav ul li ul li {
+    border: none;
+}
+nav a:hover {
+    font-size: 17.5px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+
+/* MAIN */
+
+main {
+    background-image: url(../imagenes/portada4.jpg);
+    background-size: 700px 300px;
+    padding: 20px;
+}
+
+main img {
+    border-radius: 80px;
+}
+
+.articulo {
+    padding: 10px;
+    margin: 10px;
+    background-color: #1A471C;
+    border: 3px solid white;
+    text-align: center;
+}
+
+
+.promocion {
+    padding: 15px;
+    background-color: #1A471C;
+    border: 3px solid white;
+    height: 450px;
+    width: 400px;
+    text-align: center;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    text-shadow: 2px 2px 4px black;
+    padding: 30px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.seccion-main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #1A471C;
+    border-top: white double;
+    border-bottom: white double;
+    padding: 20px;
+    margin: 0;
+}
+
+footer img {
+    border-radius: 5px;
+}
+
+footer h4 {
+    padding: 0 0 20px 0;
+    font-size: 16px;
+}
+
+footer a:hover {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.seccion-footer { 
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    padding: 5px 5px 5px 30px;
+
+}
+
+
+/* PAG SERVICIO */
+
+form {
+    background-color: #1A471C;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+form fieldset input {
+    color: black;
+    margin: 8px;
+}
+
+form fieldset div {
+    margin-left: 10px;
+}
+
+
+.vacio {
+    background-color: #1A471C;
+    text-align: center;
+    height: 150px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid white;
+}
+
+#saldo-actual {
+    padding: 15px;
+}
+
+h4 {
+    text-shadow: 2px 2px 4px black;
+    padding: 30px;
+}
+
+.seccion-servicio {
+    margin: 0;
+}
+
+/* PAG INFORMACION */
+
+.info-seccion {
+    background-color: #1A471C;
+    border: 2px solid white;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+/* PAG INFO - GALERIA FOTOS CLIENTES */
+
+.galeria-clientes {
+    display: flex;
+    height: 500px;
+    border: 2px solid white;
+    padding: 30px;
+    background-color: #1A471C;
+}
+
+.img-galeria {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.img-galeria:hover {
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+
+/* RESPONSIVE */
+/* cel */
+@media (max-width:486px) {
+    .menuUno {
+        padding: 3px;
+        font-size: 8px;
+    }
+    .menuUno__dos {
+        display: none;
+    }
+    .bloquemedio {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .buscador {
+        display: none;
+    }
+
+} 
+
+@media (max-width: 770px) {
+    .menuUno__dos {
+        display: none;
+    }
+}
+
+@media (max-width: 599px) {
+    .galeria-clientes {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .galeria-cel {
+        display: none;
+    }
+}
+
+
+/* tablets */
+@media (max-width: 1024px) {
+
+}
