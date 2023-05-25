@@ -249,7 +249,6 @@ form {
     margin: 5px;
 }
 
-
 form fieldset input {
     color: black;
     margin: 8px;
@@ -338,7 +337,14 @@ h4 {
     .buscador {
         display: none;
     }
-
+    h1 {
+        font-size: 40px;
+        padding: 4px;
+    }
+    h2 {
+        text-align: center;
+        padding-left: 90px;
+    }
 } 
 
 @media (max-width: 770px) {
@@ -359,8 +365,3 @@ h4 {
     }
 }
 
-
-/* tablets */
-@media (max-width: 1024px) {
-
-}
