@@ -20,7 +20,7 @@ button {
   margin: 2px;
   border-radius: 5px;
 }
-button button:hover {
+button:hover {
   cursor: pointer;
   background-color: rgb(164, 173, 166);
 }

@@ -1,0 +1,50 @@
+/* RESPONSIVE */
+/* cel */
+@media (max-width:486px) {
+    .menuUno {
+        padding: 3px;
+        font-size: 8px;
+    }
+    .menuUno__dos {
+        display: none;
+    }
+    .bloquemedio {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .buscador {
+        display: none;
+    }
+    h1 {
+        font-size: 40px;
+        padding: 4px;
+    }
+    h2 {
+        text-align: center;
+        padding-left: 90px;
+    }
+    form {
+        text-align: center;
+    }
+} 
+
+@media (max-width: 770px) {
+    .menuUno__dos {
+        display: none;
+    }
+}
+
+@media (max-width: 599px) {
+    .galeria-clientes {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .galeria-cel {
+        display: none;
+    }
+}
+

@@ -1,0 +1,130 @@
+/* HEADER */
+
+/* seccion 1*/
+
+header {
+    .menuUno {
+    background-color: #1A471C;
+    padding: 5px 0px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+        .menuUno__uno {
+        display: flex;
+        flex-wrap: wrap;
+            .menuUno__item {
+            border-right: 2px solid white;
+            padding: 5px 15px 5px 15px;
+            }
+        }
+        .menuUno__dos {
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+            .menuUno__item {
+            border-right: 2px solid white;
+            padding: 5px 15px 5px 15px;
+            }
+        }
+    }
+}
+
+
+/* seccion 2 - bloquemedio */
+
+header {
+    .bloquemedio {
+    background-image: url(../imagenes/portada8.jpg);
+    background-size: 450px 850px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+        .logo-titulo {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+            h1 {
+            font-size: 45px;
+            text-shadow: 10px 15px 15px rgb(12, 11, 11);
+            text-align: center;
+            }
+            .logo {
+            border-radius: 100px;
+            }
+        }
+        .buscador {
+            input {
+            color: black;
+            }
+        }
+        .bloquemedio__derecha {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+            li {
+            padding: 10px;
+                a {
+                    &:hover {
+                        color: black;
+                        transition: 0.3s;
+                        font-weight: bold;
+                        }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/* seccion 3 - nav*/
+
+header {
+    nav {
+        .menuDos {
+        background-color: #1A471C;
+        border-top: white double;
+        border-bottom: white double;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        letter-spacing: 3px;
+        margin: 0px;
+            .menuDos__all {
+            position: relative;
+                &:hover {
+                    .menuDos__all__submenu {
+                    display: block;
+                    }
+                }
+            }
+            li {
+            width: 170px;
+            text-align: center;
+            border-right: 2px solid white;
+            border-left: 2px solid white;
+                &:hover {
+                transform: scale(1.1);
+                transition: 0.2s;
+                font-weight: bold;
+                }
+                .menuDos__all__submenu {
+                display: none;
+                position: absolute;
+                background-color: #1A471C;
+                padding: 10px;
+                    li {
+                    border: none;
+                    font-size: 13px;
+                    padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

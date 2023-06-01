@@ -1,0 +1,36 @@
+/* PAG INFORMACION */
+
+.info-seccion {
+    background-color: #1A471C;
+    border: 2px solid white;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+/* PAG INFO - GALERIA FOTOS CLIENTES */
+
+main section {
+    .galeria-clientes {
+    display: flex;
+    height: 500px;
+    border: 2px solid white;
+    padding: 30px;
+    background-color: #1A471C;
+        .img-galeria {
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+        border-radius: 80px;
+            &:hover {
+            cursor: pointer;
+            width: 300px;
+            opacity: 1;
+            filter: contrast(120%);
+            }
+        }
+    }
+}
+

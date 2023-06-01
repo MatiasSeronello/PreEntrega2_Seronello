@@ -1,0 +1,31 @@
+/* FOOTER */
+
+.footer {
+    background-color: #1A471C;
+    border-top: white double;
+    border-bottom: white double;
+    padding: 20px;
+    margin: 0;
+        .seccion-footer { 
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+        padding: 5px 5px 5px 30px;
+            img {
+            border-radius: 5px;
+            }
+            h4 {
+            padding: 0 0 20px 0;
+            font-size: 16px;
+            }
+            a {
+                &:hover {
+                color: black;
+                font-weight: bold;
+                transition: 0.2s;
+                }
+            }
+        }
+    }
+    
+    
+    

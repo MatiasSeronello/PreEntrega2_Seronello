@@ -1,0 +1,44 @@
+/* MAIN */
+
+main {
+    background-image: url(../imagenes/portada4.jpg);
+    background-size: 700px 300px;
+    padding: 20px;
+        h2 {
+        font-size: 30px;
+        text-shadow: 2px 2px 4px black;
+        padding: 30px;
+        }
+        .seccion-main {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+            .articulo {
+            padding: 10px;
+            margin: 10px;
+            background-color: #1A471C;
+            border: 3px solid white;
+            text-align: center;
+                img {
+                border-radius: 80px;
+                }
+                h5 {
+                font-size: 20px;
+                }
+            }
+            .promocion {
+            padding: 15px;
+            background-color: #1A471C;
+            border: 3px solid white;
+            height: 450px;
+            width: 400px;
+            text-align: center;
+            margin: 10px;
+                img {
+                border-radius: 80px;
+                }
+            }
+        }
+    }
+    
+    
