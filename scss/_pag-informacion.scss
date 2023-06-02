@@ -1,7 +1,7 @@
 /* PAG INFORMACION */
 
 .info-seccion {
-    background-color: #1A471C;
+    background-color: $color-fondo;
     border: 2px solid white;
     padding: 10px;
     text-align: justify;
@@ -16,7 +16,7 @@ main section {
     height: 500px;
     border: 2px solid white;
     padding: 30px;
-    background-color: #1A471C;
+    background-color: $color-fondo;
         .img-galeria {
         width: 0px;
         flex-grow: 1;

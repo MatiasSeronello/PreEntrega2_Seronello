@@ -3,7 +3,7 @@
 .seccion-servicio {
     margin: 0;
         form {
-        background-color: #1A471C;
+        background-color: $color-fondo;
         border: 2px solid white;
         padding: 10px;
         margin: 5px;
@@ -18,7 +18,7 @@
             }
         }
         .vacio {
-        background-color: #1A471C;
+        background-color: $color-fondo;
         text-align: center;
         height: 150px;
         padding: 10px;

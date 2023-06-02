@@ -4,7 +4,7 @@
 
 header {
     .menuUno {
-    background-color: #1A471C;
+    background-color: $color-fondo;
     padding: 5px 0px;
     font-size: 11px;
     display: flex;
@@ -14,7 +14,7 @@ header {
         display: flex;
         flex-wrap: wrap;
             .menuUno__item {
-            border-right: 2px solid white;
+            border-right: $bordes-menus;
             padding: 5px 15px 5px 15px;
             }
         }
@@ -23,7 +23,7 @@ header {
         flex-wrap: wrap;
         width: 200px;
             .menuUno__item {
-            border-right: 2px solid white;
+            border-right: $bordes-menus;
             padding: 5px 15px 5px 15px;
             }
         }
@@ -86,7 +86,7 @@ header {
 header {
     nav {
         .menuDos {
-        background-color: #1A471C;
+        background-color: $color-fondo;
         border-top: white double;
         border-bottom: white double;
         padding: 10px 20px;
@@ -106,8 +106,8 @@ header {
             li {
             width: 170px;
             text-align: center;
-            border-right: 2px solid white;
-            border-left: 2px solid white;
+            border-right: $bordes-menus;
+            border-left: $bordes-menus;
                 &:hover {
                 transform: scale(1.1);
                 transition: 0.2s;

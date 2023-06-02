@@ -1,14 +1,14 @@
 /* FOOTER */
 
 .footer {
-    background-color: #1A471C;
+    background-color: $color-fondo;
     border-top: white double;
     border-bottom: white double;
     padding: 20px;
     margin: 0;
         .seccion-footer { 
-        border-right: 2px solid white;
-        border-left: 2px solid white;
+        border-right: $bordes-menus;
+        border-left: $bordes-menus;
         padding: 5px 5px 5px 30px;
             img {
             border-radius: 5px;
