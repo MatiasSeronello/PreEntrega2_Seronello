@@ -160,6 +160,10 @@ main .seccion-main .articulo, main .seccion-main .promocion {
 main .seccion-main .articulo img, main .seccion-main .promocion img {
   border-radius: 80px;
 }
+main .seccion-main .articulo img:hover, main .seccion-main .promocion img:hover {
+  animation: swing;
+  animation-duration: 0.7s;
+}
 main .seccion-main .articulo h5, main .seccion-main .promocion h5 {
   font-size: 20px;
 }
@@ -256,23 +260,23 @@ main section .galeria-clientes .img-galeria:hover {
 /* RESPONSIVE */
 /* cel */
 @media (max-width: 486px) {
-  .menuUno {
+  header .menuUno {
     padding: 3px;
     font-size: 8px;
   }
-  .menuUno__dos {
+  header .menuUno .menuUno__dos {
     display: none;
   }
-  .bloquemedio {
+  header .bloquemedio {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
   }
-  .buscador {
+  header .bloquemedio .buscador {
     display: none;
   }
-  h1 {
+  header .bloquemedio .logo-titulo h1 {
     font-size: 40px;
     padding: 4px;
   }
@@ -280,17 +284,18 @@ main section .galeria-clientes .img-galeria:hover {
     text-align: center;
     padding-left: 90px;
   }
-  form, .seccion-servicio .vacio {
+  .seccion-servicio form, .seccion-servicio .vacio {
     text-align: center;
+    font-size: 13px;
   }
 }
 @media (max-width: 770px) {
-  .menuUno__dos {
+  header .menuUno .menuUno__dos {
     display: none;
   }
 }
 @media (max-width: 599px) {
-  .galeria-clientes {
+  main section .galeria-clientes {
     display: none;
   }
 }

@@ -1,44 +1,58 @@
 /* RESPONSIVE */
 /* cel */
 @media (max-width:486px) {
-    .menuUno {
+    header { 
+        .menuUno {
         padding: 3px;
         font-size: 8px;
-    }
-    .menuUno__dos {
-        display: none;
-    }
-    .bloquemedio {
+            .menuUno__dos {
+            display: none;
+            }
+        }
+        .bloquemedio {
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
         align-items: center;
+            .buscador {
+            display: none;
+            }
+            .logo-titulo {
+                h1 {
+                font-size: 40px;
+                padding: 4px;
+                }
+            }
+        }
     }
-    .buscador {
-        display: none;
-    }
-    h1 {
-        font-size: 40px;
-        padding: 4px;
-    }
+        
     h2 {
         text-align: center;
         padding-left: 90px;
     }
-    form {
+    .seccion-servicio{
+        form {
         text-align: center;
+        font-size: 13px;
+        }
     }
 } 
 
 @media (max-width: 770px) {
-    .menuUno__dos {
-        display: none;
+    header {
+        .menuUno {
+            .menuUno__dos {
+            display: none;
+            }
+        }
     }
 }
 
 @media (max-width: 599px) {
-    .galeria-clientes {
+    main section {
+        .galeria-clientes {
         display: none;
+        }
     }
 }
 
