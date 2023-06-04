@@ -4,7 +4,7 @@
     margin: 0;
         form {
         background-color: $color-fondo;
-        border: 2px solid white;
+        border: $bordes-menus;
         padding: 10px;
         margin: 5px;
             fieldset {
@@ -18,12 +18,9 @@
             }
         }
         .vacio {
-        background-color: $color-fondo;
-        text-align: center;
+        @extend form;
         height: 150px;
-        padding: 10px;
-        margin: 5px;
-        border: 2px solid white;
+        text-align: center;
         }
         #saldo-actual {
         padding: 15px;

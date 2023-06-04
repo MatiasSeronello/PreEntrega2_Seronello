@@ -150,30 +150,23 @@ main .seccion-main {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-main .seccion-main .articulo {
+main .seccion-main .articulo, main .seccion-main .promocion {
   padding: 10px;
   margin: 10px;
   background-color: #1A471C;
   border: 3px solid white;
   text-align: center;
 }
-main .seccion-main .articulo img {
+main .seccion-main .articulo img, main .seccion-main .promocion img {
   border-radius: 80px;
 }
-main .seccion-main .articulo h5 {
+main .seccion-main .articulo h5, main .seccion-main .promocion h5 {
   font-size: 20px;
 }
 main .seccion-main .promocion {
   padding: 15px;
-  background-color: #1A471C;
-  border: 3px solid white;
   height: 450px;
   width: 400px;
-  text-align: center;
-  margin: 10px;
-}
-main .seccion-main .promocion img {
-  border-radius: 80px;
 }
 
 /* FOOTER */
@@ -206,26 +199,22 @@ main .seccion-main .promocion img {
 .seccion-servicio {
   margin: 0;
 }
-.seccion-servicio form {
+.seccion-servicio form, .seccion-servicio .vacio {
   background-color: #1A471C;
   border: 2px solid white;
   padding: 10px;
   margin: 5px;
 }
-.seccion-servicio form fieldset input {
+.seccion-servicio form fieldset input, .seccion-servicio .vacio fieldset input {
   color: black;
   margin: 8px;
 }
-.seccion-servicio form fieldset div {
+.seccion-servicio form fieldset div, .seccion-servicio .vacio fieldset div {
   margin-left: 10px;
 }
 .seccion-servicio .vacio {
-  background-color: #1A471C;
-  text-align: center;
   height: 150px;
-  padding: 10px;
-  margin: 5px;
-  border: 2px solid white;
+  text-align: center;
 }
 .seccion-servicio #saldo-actual {
   padding: 15px;
@@ -291,7 +280,7 @@ main section .galeria-clientes .img-galeria:hover {
     text-align: center;
     padding-left: 90px;
   }
-  form {
+  form, .seccion-servicio .vacio {
     text-align: center;
   }
 }

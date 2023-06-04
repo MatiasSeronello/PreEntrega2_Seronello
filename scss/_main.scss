@@ -28,16 +28,10 @@ main {
                 }
             }
             .promocion {
+            @extend .articulo;
             padding: 15px;
-            background-color: $color-fondo;
-            border: 3px solid white;
             height: 450px;
             width: 400px;
-            text-align: center;
-            margin: 10px;
-                img {
-                border-radius: 80px;
-                }
             }
         }
     }

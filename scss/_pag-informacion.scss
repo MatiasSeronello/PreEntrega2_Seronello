@@ -2,7 +2,7 @@
 
 .info-seccion {
     background-color: $color-fondo;
-    border: 2px solid white;
+    border: $bordes-menus;
     padding: 10px;
     text-align: justify;
 }
@@ -14,7 +14,7 @@ main section {
     .galeria-clientes {
     display: flex;
     height: 500px;
-    border: 2px solid white;
+    border: $bordes-menus;
     padding: 30px;
     background-color: $color-fondo;
         .img-galeria {
