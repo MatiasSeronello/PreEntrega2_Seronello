@@ -24,6 +24,10 @@ button:hover {
   cursor: pointer;
   background-color: rgb(164, 173, 166);
 }
+button:active {
+  animation: pulse;
+  animation-duration: 1s;
+}
 
 /* HEADER */
 /* seccion 1*/
@@ -162,7 +166,7 @@ main .seccion-main .articulo img, main .seccion-main .promocion img {
 }
 main .seccion-main .articulo img:hover, main .seccion-main .promocion img:hover {
   animation: swing;
-  animation-duration: 0.7s;
+  animation-duration: 1s;
 }
 main .seccion-main .articulo h5, main .seccion-main .promocion h5 {
   font-size: 20px;

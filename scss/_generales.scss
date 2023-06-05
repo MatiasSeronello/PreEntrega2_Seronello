@@ -25,4 +25,8 @@ border-radius: 5px;
     cursor: pointer;
     background-color: rgb(164, 173, 166);
     }
+    &:active {
+    animation: pulse;
+    animation-duration: 1s;
+    }
 }
