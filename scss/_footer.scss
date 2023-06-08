@@ -2,8 +2,7 @@
 
 .footer {
     background-color: $color-fondo;
-    border-top: white double;
-    border-bottom: white double;
+    @include borde-topbot;
     padding: 20px;
     margin: 0;
         .seccion-footer { 

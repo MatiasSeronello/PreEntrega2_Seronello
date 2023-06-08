@@ -4,16 +4,12 @@
     header { 
         .menuUno {
         padding: 3px;
-        font-size: 8px;
+        font-size: 9px;
             .menuUno__dos {
             display: none;
             }
         }
         .bloquemedio {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        align-items: center;
             .buscador {
             display: none;
             }
