@@ -1,15 +1,16 @@
 @import 'mixins';
+@import 'maps-get';
 
 /* HEADER */
-/* seccion 1*/
 
 header {
+    /* seccion 1 - barra superior (datos contacto, saldo/cuenta*/
     .menuUno {
     background-color: $color-fondo;
     padding: 5px 0px;
     font-size: 11px;
-    display: flex;
-    justify-content: space-between;
+    @include flex-wrap;
+    justify-content: map-get($flex-espacio, between);
     height: 40px;
         .menuUno__uno {
         @include flex-wrap;
@@ -23,23 +24,17 @@ header {
         width: 200px;
         }
     }
-}
-
-
-
-/* seccion 2 - bloquemedio */
-
-header {
+    /* seccion 2 - bloquemedio (logo, buscador, wishlist/cart) */
     .bloquemedio {
     background-image: url(../imagenes/portada8.jpg);
     background-size: 450px 850px;
     padding: 15px;
     @include flex-wrap;
-    justify-content: space-between;
+    justify-content: map-get($flex-espacio, between);
     align-items: center;
         .logo-titulo {
         @include flex-wrap;
-        justify-content: space-between;
+        justify-content: map-get($flex-espacio, between);
             h1 {
             font-size: 45px;
             text-shadow: 10px 15px 15px rgb(12, 11, 11);
@@ -56,34 +51,27 @@ header {
         }
         .bloquemedio__derecha {
         @include flex-wrap;
-        justify-content: space-evenly;
+        justify-content: map-get($flex-espacio, evenly);
             li {
             padding: 10px;
                 a {
                     &:hover {
-                        color: black;
-                        transition: 0.3s;
-                        font-weight: bold;
-                        }
+                    color: black;
+                    transition: 0.3s;
+                    font-weight: bold;
+                    }
                 }
             }
         }
     }
-}
-
-
-
-
-/* seccion 3 - nav*/
-
-header {
+    /* seccion 3 - nav*/
     nav {
         .menuDos {
         background-color: $color-fondo;
         @include borde-topbot;
         padding: 10px 20px;
         @include flex-wrap;
-        justify-content: space-around;
+        justify-content: map-get($flex-espacio, around);
         letter-spacing: 3px;
         margin: 0px;
             .menuDos__all {
