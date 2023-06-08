@@ -10,9 +10,6 @@
             }
         }
         .bloquemedio {
-            .buscador {
-            display: none;
-            }
             .logo-titulo {
                 h1 {
                 font-size: 40px;
@@ -41,9 +38,18 @@
             display: none;
             }
         }
+        .bloquemedio {
+            .buscador {
+            display: none;
+            }
+        }
     }
 }
 
+
+
+
+/* Cambio de galeria de clientes */
 @media (max-width: 599px) {
     main section {
         .galeria-clientes {
