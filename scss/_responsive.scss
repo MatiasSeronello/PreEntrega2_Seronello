@@ -3,17 +3,17 @@
 @media (max-width:486px) {
     header { 
         .menuUno {
-        padding: 3px;
-        font-size: 9px;
+            padding: 3px;
+            font-size: 9px;
             .menuUno__dos {
-            display: none;
+                display: none;
             }
         }
         .bloquemedio {
             .logo-titulo {
                 h1 {
-                font-size: 40px;
-                padding: 4px;
+                    font-size: 40px;
+                    padding: 4px;
                 }
             }
         }
@@ -25,8 +25,8 @@
     }
     .seccion-servicio{
         form {
-        text-align: center;
-        font-size: 13px;
+            text-align: center;
+            font-size: 13px;
         }
     }
 } 
@@ -35,12 +35,12 @@
     header {
         .menuUno {
             .menuUno__dos {
-            display: none;
+                display: none;
             }
         }
         .bloquemedio {
             .buscador {
-            display: none;
+                display: none;
             }
         }
     }
@@ -53,7 +53,7 @@
 @media (max-width: 599px) {
     main section {
         .galeria-clientes {
-        display: none;
+            display: none;
         }
     }
 }

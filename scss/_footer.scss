@@ -6,25 +6,23 @@
     padding: 20px;
     margin: 0;
         .seccion-footer { 
-        border-right: $bordes-menus;
-        border-left: $bordes-menus;
-        padding: 5px 5px 5px 30px;
+            border-right: $bordes-menus;
+            border-left: $bordes-menus;
+            padding: 5px 5px 5px 30px;
             img {
-            border-radius: 5px;
+                border-radius: 5px;
             }
             h4 {
-            padding: 0 0 20px 0;
-            font-size: 16px;
+                padding: 0 0 20px 0;
+                font-size: 16px;
             }
             a {
                 &:hover {
-                color: black;
-                font-weight: bold;
-                transition: 0.2s;
+                    color: black;
+                    font-weight: bold;
+                    transition: 0.2s;
                 }
             }
         }
     }
-    
-    
     

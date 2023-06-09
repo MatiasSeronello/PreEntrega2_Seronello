@@ -16,17 +16,17 @@ a {
 
 
 button {
-color: black;
-border: double black;
-padding: 4px;
-margin: 2px;
-border-radius: 5px; 
+    color: black;
+    border: double black;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 5px; 
     &:hover {
-    cursor: pointer;
-    background-color: rgb(164, 173, 166);
+        cursor: pointer;
+        background-color: rgb(164, 173, 166);
     }
     &:active {
-    animation: pulse;
-    animation-duration: 1s;
+        animation: pulse;
+        animation-duration: 1s;
     }
 }

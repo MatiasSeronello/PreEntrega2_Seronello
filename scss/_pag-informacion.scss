@@ -12,23 +12,23 @@
 
 main section {
     .galeria-clientes {
-    display: flex;
-    height: 500px;
-    border: $bordes-menus;
-    padding: 30px;
-    background-color: $color-fondo;
+        display: flex;
+        height: 500px;
+        border: $bordes-menus;
+        padding: 30px;
+        background-color: $color-fondo;
         .img-galeria {
-        width: 0px;
-        flex-grow: 1;
-        object-fit: cover;
-        opacity: .8;
-        transition: .5s ease;
-        border-radius: 80px;
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: .5s ease;
+            border-radius: 80px;
             &:hover {
-            cursor: pointer;
-            width: 300px;
-            opacity: 1;
-            filter: contrast(120%);
+                cursor: pointer;
+                width: 300px;
+                opacity: 1;
+                filter: contrast(120%);
             }
         }
     }
