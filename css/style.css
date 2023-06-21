@@ -79,6 +79,7 @@ header .bloquemedio .logo-titulo .logo {
 }
 header .bloquemedio .buscador input {
   color: black;
+  border-radius: 4px;
 }
 header .bloquemedio .bloquemedio__derecha {
   display: flex;
@@ -155,13 +156,19 @@ main .seccion-main .articulo, main .seccion-main .promocion {
   background-color: #1A471C;
   border: 2px solid white;
   text-align: center;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+main .seccion-main .articulo:hover, main .seccion-main .promocion:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+  transform: translateY(-2%);
 }
 main .seccion-main .articulo img, main .seccion-main .promocion img {
   border-radius: 80px;
 }
-main .seccion-main .articulo img:hover, main .seccion-main .promocion img:hover {
-  animation: swing;
-  animation-duration: 1s;
+main .seccion-main .articulo p, main .seccion-main .promocion p {
+  padding-top: 15px;
+  font-weight: 250;
 }
 main .seccion-main .articulo h5, main .seccion-main .promocion h5 {
   font-size: 20px;
@@ -189,7 +196,7 @@ main .seccion-main .promocion {
   border-radius: 5px;
 }
 .footer .seccion-footer h4 {
-  padding: 0 0 20px 0;
+  padding-bottom: 20px;
   font-size: 16px;
 }
 .footer .seccion-footer a:hover {
@@ -207,13 +214,18 @@ main .seccion-main .promocion {
   border: 2px solid white;
   padding: 10px;
   margin: 5px;
+  text-align: center;
 }
 .seccion-servicio form fieldset input, .seccion-servicio .vacio fieldset input {
   color: black;
   margin: 8px;
+  border-radius: 4px;
 }
 .seccion-servicio form fieldset div, .seccion-servicio .vacio fieldset div {
   margin-left: 10px;
+}
+.seccion-servicio img {
+  height: 450px;
 }
 .seccion-servicio .vacio {
   height: 150px;
@@ -295,6 +307,12 @@ main section .galeria-clientes .img-galeria:hover {
 }
 @media (min-width: 600px) {
   .galeria-cel {
+    display: none;
+  }
+}
+/*Imagen formulario*/
+@media (max-width: 990px) {
+  .seccion-servicio img {
     display: none;
   }
 }

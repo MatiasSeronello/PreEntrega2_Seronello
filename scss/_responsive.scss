@@ -64,3 +64,12 @@
     }
 }
 
+
+/*Imagen formulario*/
+@media (max-width: 990px) {
+    .seccion-servicio {
+        img {
+            display: none;
+        }
+    }
+}

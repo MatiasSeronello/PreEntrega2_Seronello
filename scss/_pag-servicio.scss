@@ -7,15 +7,20 @@
             border: $bordes-menus;
             padding: 10px;
             margin: 5px;
+            text-align: center;
             fieldset {
                 input {
                     color: black;
                     margin: 8px;
+                    border-radius: 4px;
                 }
                 div {
                     margin-left: 10px;
                 }
             }
+        }
+        img {
+            height: 450px;
         }
         .vacio {
             @extend form;
