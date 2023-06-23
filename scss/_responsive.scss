@@ -46,6 +46,18 @@
     }
 }
 
+@media (max-width:404px) {
+    header { 
+        .menuUno {
+            padding: 3px;
+            font-size: 6.5px;
+            .menuUno__dos {
+                display: none;
+            }
+        }
+    }
+}
+
 
 
 

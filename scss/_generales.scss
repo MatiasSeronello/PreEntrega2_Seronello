@@ -17,13 +17,15 @@ a {
 
 button {
     color: black;
+    font-weight: 550;
     border: double black;
     padding: 4px;
     margin: 2px;
     border-radius: 5px; 
     &:hover {
         cursor: pointer;
-        background-color: rgb(164, 173, 166);
+        background-color: rgb(68, 158, 86);
+        color: white;
     }
     &:active {
         animation: pulse;
