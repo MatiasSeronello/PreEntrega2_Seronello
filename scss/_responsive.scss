@@ -5,6 +5,7 @@
         .menuUno {
             padding: 3px;
             font-size: 9px;
+            height: 30px;
             .menuUno__dos {
                 display: none;
             }
@@ -31,34 +32,54 @@
     }
 } 
 
-@media (max-width: 770px) {
-    header {
+@media (max-width:410px) {
+    header { 
         .menuUno {
-            .menuUno__dos {
+            .direc {
                 display: none;
             }
         }
         .bloquemedio {
-            .buscador {
-                display: none;
+            .logo-titulo {
+                h1 {
+                    font-size: 30px;
+                }
+                .logo {
+                    width: 80px;
+                }
             }
         }
     }
 }
 
-@media (max-width:404px) {
-    header { 
-        .menuUno {
-            padding: 3px;
-            font-size: 6.5px;
-            .menuUno__dos {
+/* Cambio de nav a menu hamburguesa */
+
+@media (max-width: 770px) {
+    header {
+        div {
+            .menuUno {
+                .menuUno__dos {
+                    display: none;
+                }
+            }
+            .bloquemedio {
+                .buscador {
+                    display: none;
+                }
+            }
+            .navegador {
                 display: none;
             }
         }
     }
 }
-
-
+@media (min-width: 771px) {
+    header {
+        .navbar {
+            display: none;
+        }
+    }
+}
 
 
 /* Cambio de galeria de clientes */

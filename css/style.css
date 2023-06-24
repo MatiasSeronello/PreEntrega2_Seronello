@@ -100,7 +100,21 @@ header .bloquemedio .bloquemedio__derecha li a:hover {
   transition: 0.3s;
   font-weight: bold;
 }
-header nav .menuDos {
+header .navbar {
+  background-color: #1A471C;
+  border-top: white double;
+  border-bottom: white double;
+  letter-spacing: 3px;
+}
+header .navbar li {
+  padding-left: 50px;
+}
+header .navbar li:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  font-weight: bold;
+}
+header .navegador .menuDos {
   background-color: #1A471C;
   border-top: white double;
   border-bottom: white double;
@@ -111,30 +125,30 @@ header nav .menuDos {
   letter-spacing: 3px;
   margin: 0px;
 }
-header nav .menuDos .menuDos__all {
+header .navegador .menuDos .menuDos__all {
   position: relative;
 }
-header nav .menuDos .menuDos__all:hover .menuDos__all__submenu {
+header .navegador .menuDos .menuDos__all:hover .menuDos__all__submenu {
   display: block;
 }
-header nav .menuDos li {
+header .navegador .menuDos li {
   width: 170px;
   text-align: center;
   border-right: 2px solid white;
   border-left: 2px solid white;
 }
-header nav .menuDos li:hover {
+header .navegador .menuDos li:hover {
   transform: scale(1.1);
   transition: 0.2s;
   font-weight: bold;
 }
-header nav .menuDos li .menuDos__all__submenu {
+header .navegador .menuDos li .menuDos__all__submenu {
   display: none;
   position: absolute;
   background-color: #1A471C;
   padding: 10px;
 }
-header nav .menuDos li .menuDos__all__submenu li {
+header .navegador .menuDos li .menuDos__all__submenu li {
   border: none;
   font-size: 13px;
   padding: 5px;
@@ -286,6 +300,7 @@ main section .galeria-clientes .img-galeria:hover {
   header .menuUno {
     padding: 3px;
     font-size: 9px;
+    height: 30px;
   }
   header .menuUno .menuUno__dos {
     display: none;
@@ -303,20 +318,31 @@ main section .galeria-clientes .img-galeria:hover {
     font-size: 13px;
   }
 }
-@media (max-width: 770px) {
-  header .menuUno .menuUno__dos {
+@media (max-width: 410px) {
+  header .menuUno .direc {
     display: none;
   }
-  header .bloquemedio .buscador {
+  header .bloquemedio .logo-titulo h1 {
+    font-size: 30px;
+  }
+  header .bloquemedio .logo-titulo .logo {
+    width: 80px;
+  }
+}
+/* Cambio de nav a menu hamburguesa */
+@media (max-width: 770px) {
+  header div .menuUno .menuUno__dos {
+    display: none;
+  }
+  header div .bloquemedio .buscador {
+    display: none;
+  }
+  header div .navegador {
     display: none;
   }
 }
-@media (max-width: 404px) {
-  header .menuUno {
-    padding: 3px;
-    font-size: 6.5px;
-  }
-  header .menuUno .menuUno__dos {
+@media (min-width: 771px) {
+  header .navbar {
     display: none;
   }
 }

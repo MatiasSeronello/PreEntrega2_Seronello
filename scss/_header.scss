@@ -70,7 +70,20 @@ header {
         }
     }
     /* seccion 3 - nav*/
-    nav {
+    .navbar {
+        background-color: $color-fondo;
+        @include borde-topbot;
+        letter-spacing: 3px;
+        li {
+            padding-left: 50px;
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.2s;
+                font-weight: bold;
+            }
+        }
+    }
+    .navegador {
         .menuDos {
             background-color: $color-fondo;
             @include borde-topbot;
